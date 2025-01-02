@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="stylesheet" href="style.css">
+    <title>Signup</title>
+  </head>
 
-
-    <title>Document</title>
-</head>
-
-<body id="body_signup">
+  <body id="body_signup">
     <header id="header_signup">
-        <div>
-            <img src="elements/logo_blue.png" alt="" class="img_header_signup">
-        </div>
+      <div>
+        <img src="elements/logo_blue.png" alt="" class="img_header_signup" />
+      </div>
 
-        <ul id="navbar2">
-            <li><a href="home.html"><img src="elements/home_blue.svg" alt=""></a></li>
-            <li class="signup_selected "><a href="signup.html"><img src="elements/add.svg" alt=""></a></li>
-            <li><a href="login.html"><img src="elements/login_blue.svg" alt=""></a></li>
-        </ul>
-
+      <ul id="navbar2">
+        <li>
+          <a href="home.html"><img src="elements/home_blue.svg" alt="" /></a>
+        </li>
+        <li class="signup_selected">
+          <a href="signup.html"><img src="elements/add.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href="login.html"><img src="elements/login_blue.svg" alt="" /></a>
+        </li>
+      </ul>
     </header>
     <article id="page_signup">
-        <div id="signup_content">
-            <div id="signup_form">
-                <form action="#">
-                    <div>
-                        <img src="elements/icon_logo_blue.svg" alt="">
-                        <h1 class="signup_word">Sign Up</h1>
-                        <h4 class="inder_form">welcome to our platform please enter your details.</h4>
+      <div id="signup_content">
+        <div id="signup_form">
+          <form action="#">
+            <div>
+              <img src="elements/icon_logo_blue.svg" alt="" />
+              <h1 class="signup_word">Sign Up</h1>
+              <h4 class="inder_form">
+                welcome to our platform please enter your details.
+              </h4>
 
-                        <div id="signup_form_content">
-
-                            <input type="text" placeholder="Username" id="s1">
-                            <input type="email" placeholder="Email" id="s1">
-                            <input type="password" placeholder="password" id="s1">
-                            <input type="button" class="button_ca_su" value="Create account">
-                            <input type="button" class="button-login_su" value="Login">
-
-                        </div>
-                        <h4 class="inder_form"><em>Connect to you account ? </em> Login from here </h4>
-                    </div>
-                </form>
+              <div id="signup_form_content">
+                <input type="text" placeholder="Username" id="s1" />
+                <input type="email" placeholder="Email" id="s1" />
+                <input type="password" placeholder="password" id="s1" />
+                <input
+                  type="button"
+                  class="button_ca_su"
+                  value="Create account"
+                />
+                <input
+                  type="button"
+                  class="button-login_su"
+                  value="Login"
+                  onclick="window.location.href='user_profil.html'"
+                />
+              </div>
+              <h4 class="inder_form">
+                <em>Connect to you account ? </em> Login from here
+              </h4>
             </div>
-
-
-            <div id="sign_up_paragraphe">
-                <img src="elements/logo_white.png" alt="" class="mg">
-                <img src="elements/person-working-from-home.svg" alt="">
-                <figcaption>"Unlock Your Creativity, Join Us Today!"</figcaption>
-                <p>At SaharaBytes , we prioritize your privacy.
-                    Your data is safe, secure, and never shared without your consent.
-                    We're committed to providing you with a trusted and protected experience</p>
-
-
-
-            </div>
+          </form>
         </div>
-    </article>
-</body>
 
+        <div id="sign_up_paragraphe">
+          <img src="elements/logo_white.png" alt="" class="mg" />
+          <img src="elements/person-working-from-home.svg" alt="" />
+          <figcaption>"Unlock Your Creativity, Join Us Today!"</figcaption>
+          <p>
+            At SaharaBytes , we prioritize your privacy. Your data is safe,
+            secure, and never shared without your consent. We're committed to
+            providing you with a trusted and protected experience
+          </p>
+        </div>
+      </div>
+    </article>
+  </body>
 </html>

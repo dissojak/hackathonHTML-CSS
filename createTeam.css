@@ -1,0 +1,317 @@
+@font-face {
+  font-family: "Raleway-extrabold";
+  src: url("fonts/Raleway-ExtraBold.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Raleway-regular";
+  src: url("fonts/Raleway-Regular.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url("fonts/Raleway-SemiBold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Ruled";
+  src: url("fonts/PT/ Simple/Bold/Ruled.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arimo-Bold";
+  src: url("fonts/Arimo-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arimo-Bold";
+  src: url("fonts/Arimo-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ptsimple";
+  src: url("fonts/Ubuntu-Bold.ttf");
+}
+
+header {
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: -16px;
+}
+.navbar {
+  position: relative;
+  width: 396px;
+  height: 80px;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding-top: 16px;
+  background-color: white;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.16);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.home_selected {
+  border-radius: 10%;
+  background-color: #c08979;
+}
+.li_css {
+  width: 56px;
+  height: 48px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-right: 35px;
+  border-radius: 10px;
+}
+.img_logo {
+  margin-left: 46px;
+  height: 50%;
+  position: relative;
+  top: 2rem;
+  /* height: 2rem; */
+}
+
+#header_right {
+  margin-right: 16px;
+  justify-content: space-around;
+  display: flex;
+  width: 298px;
+  margin-top: 25px;
+}
+
+.button_header_right {
+  width: 20px;
+  margin-top: -15px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.navbarUserImg {
+  margin-top: 10px;
+  width: 48px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.name {
+  width: 234px;
+  font-family: "Raleway-regular";
+  font-size: 24px;
+  color: #4d3223;
+}
+
+#saharaTeam {
+  position: absolute;
+  z-index: -1;
+  font-family: "BebasNeue-Regular";
+  font-size: 402px;
+  color: #f7f6fa;
+  top: 25vh;
+  left: 35%;
+  width: 65%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/*
+-------------------------------------
+team add start css 
+-------------------------------------
+*/
+
+.main-container {
+  display: flex;
+  width: 90%;
+  /* background-color: rgb(130, 119, 119); */
+  margin-left: 6rem;
+  margin-top: -2rem;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.title_index {
+  font-weight: lighter;
+  font-size: 49px;
+  color: #c99c6e;
+  font-family: "BebasNeue-Regular";
+  margin-top: 6rem;
+  margin-left: 6rem;
+}
+
+.left-section {
+  flex: 3;
+  padding-right: 20px;
+}
+
+.team-credentials {
+  background-color: #f0f0f0;
+  display: flex;
+}
+
+.input-group {
+  width: 45%;
+  margin-right: 2rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  height: 2rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-btn {
+  width: 30rem;
+  height: 3.1rem;
+  padding: 10px;
+  background-color: #b37664;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 1rem;
+  margin-top: 1.6rem;
+}
+
+.team-members {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.member-placeholder {
+  width: 100%;
+  height: 85%;
+  /* border: 2px dashed #ccc; */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: "Raleway-regular";
+}
+
+.member-placeholder img {
+  position: relative;
+  margin-top: 3rem;
+  width: 80%;
+  left: 2rem;
+}
+
+.member-placeholder p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  font-size: 0.75rem;
+}
+
+.right-section {
+  flex: 1;
+  padding-left: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.icon-item {
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon-item:hover {
+  background-color: #d5efff;
+  /* border: solid #ffdac6 0.1rem; */
+}
+
+.icon-item-selected {
+  background-color: #b1e5ff;
+  border: solid #4d3223 0.1rem;
+}
+
+.icon-item img {
+  max-width: 60%;
+  height: auto;
+}
+
+.styleFontH {
+  font-family: "Raleway-regular";
+  color: #4d3223;
+}
+
+#selectteamtext {
+  margin: 0.5rem 1rem 1rem;
+  font-family: "Raleway-SemiBold";
+  color: #4d3223;
+}
+
+.credentials-text {
+  font-family: "Raleway-extraBold";
+  color: #4d3223;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+#desc-credentials {
+  font-size: 0.75rem;
+  font-family: "Raleway-semiBold";
+  color: #777777;
+  margin-top: -0.25rem;
+}
+
+.team-credentials-container {
+  background: #f0f0f0;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/*----------------------------------------------------------------
+FOR DEV MODE
+*/
+
+.justfordevmode {
+  background: #79a1ff;
+}
