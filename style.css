@@ -1,0 +1,571 @@
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arimo-Bold";
+  src: url("fonts/Arimo-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arimo-Bold";
+  src: url("fonts/Arimo-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ptsimple";
+  src: url("fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url("fonts/Raleway-SemiBold.ttf");
+  font-weight: 700;
+}
+
+/*index.html css*/
+
+body {
+  /* width: 100%; */
+  background-color: #f0f0f0;
+}
+
+#sahara {
+  position: absolute;
+  z-index: -1;
+  font-family: "BebasNeue-Regular";
+  font-size: 402px;
+  color: #f7f6fa;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.logoLeftSide {
+  margin: 20px;
+}
+
+.img_header {
+  margin: 20px;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+}
+
+#index_nav {
+  width: 16%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 41%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  list-style-type: none;
+  height: 76px;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.16);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-sizing: border-box;
+}
+
+#index_nav li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+li a img {
+  width: 23px;
+  margin-top: 15px;
+  height: 23px;
+}
+
+.home_selected {
+  border-radius: 10%;
+  background-color: #c08979;
+}
+
+#article_index {
+  width: 88%;
+  margin: auto;
+
+  padding-top: 70px;
+  margin-bottom: 100px;
+}
+
+#hackatons_index {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px;
+  width: 93%;
+  margin: auto;
+}
+
+.title_index {
+  font-weight: lighter;
+  font-size: 49px;
+  color: #c99c6e;
+  font-family: "BebasNeue-Regular";
+}
+
+#hackaton {
+  width: 42%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  height: 230px;
+}
+
+#hackaton_info {
+  width: 41%;
+  height: 203px;
+}
+
+.img_hackaton_index {
+  width: 57%;
+  height: 230px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.cfc {
+  border-radius: 10px;
+  background-color: #c99c6e;
+  width: 97%;
+  height: 21px;
+  color: #4d3223;
+  font-size: 12px;
+  font-family: "Roboto-Medium";
+  font-weight: 300;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.inder_cfc {
+  color: #a8a8a8;
+  font-family: "Arimo-Bold";
+  font-size: 10px;
+}
+
+.date_hackaton {
+  font-family: "Roboto", "Roboto-Bold";
+  font-size: 12;
+  color: #4d3223;
+}
+
+#name_logo_club {
+  width: 54%;
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+
+.club_name {
+  font-family: "Arimo-Bold";
+  color: #4d3223;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.image_club_name {
+  width: 26%;
+}
+
+#Details_botton {
+  background-color: #4d3223;
+  color: white;
+  width: 100%;
+  height: 28px;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+#flame_flag {
+  width: 28%;
+  display: flex;
+  justify-content: space-between;
+  height: 13px;
+}
+
+#mail_flag {
+  display: flex;
+  justify-content: space-between;
+}
+
+#flags_nb {
+  font-family: "Arimo-Bold", "Arimo-Regular ";
+  width: 29%;
+  color: black;
+  font-size: 12px;
+}
+
+#name_logo_club {
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-start;
+}
+
+/*footer css*/
+footer {
+  height: 190px;
+  background-color: #c99c6e;
+  display: flex;
+  justify-content: space-between;
+}
+
+#f1 {
+  display: grid;
+  padding-top: 52px;
+  padding-left: 42px;
+  width: 17.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d3223;
+  font-size: 10px;
+  font-weight: lighter;
+  box-sizing: border-box;
+}
+
+#f2 {
+  font-family: Arial;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding-top: 52px;
+
+  width: 17.5%;
+  list-style: none;
+}
+
+#f2 a {
+  text-decoration: none;
+  color: #4d3223;
+}
+
+#f3 {
+  font-family: Arial;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding-top: 52px;
+
+  color: #4d3223;
+  width: 17.5%;
+}
+
+#f3 div {
+  padding-bottom: 10px;
+}
+
+#f4 {
+  font-family: Arial;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding-top: 52px;
+
+  color: #4d3223;
+  width: 17.5%;
+}
+
+#f4 input[type="text"] {
+  margin-top: 10px;
+  width: 63%;
+  height: 28px;
+  background-color: transparent;
+  border: white 3px solid;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#f4 input[type="button"] {
+  background-color: white;
+  margin-top: 10px;
+  width: 31%;
+  height: 35px;
+  border: white 3px solid;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#f5 {
+  font-family: Arial;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding-top: 52px;
+  padding-left: 42px;
+
+  width: 30%;
+  color: #4d3223;
+}
+
+/*signup page css */
+#navbar2 {
+  width: 16%;
+  position: absolute;
+  top: 0;
+  left: 41%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  list-style-type: none;
+  height: 72px;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.16);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-sizing: border-box;
+}
+
+#header_signup {
+  padding-left: 30px;
+  padding-top: 15px;
+  height: 76px;
+}
+
+#navbar2 li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+li a img {
+  width: 23px;
+  margin-top: 15px;
+  height: 23px;
+}
+
+.signup_selected {
+  border-radius: 10%;
+  background-color: #00a8e8;
+}
+
+#body_signup {
+  background-color: #87ceeb;
+}
+
+.img_header_signup {
+  position: absolute;
+  /* margin: 20px; */
+}
+
+#signup_content {
+  display: flex;
+  margin: auto;
+  align-items: last baseline;
+  width: 52%;
+}
+
+#signup_form {
+    position: relative;
+  background-color: white;
+  display: grid;
+  width: 100%;
+  top: 27px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+#page_signup {
+  margin-top: 15px;
+}
+
+#sign_up_paragraphe {
+  font-family: "ptsimple";
+  padding-top: 5px;
+  align-items: center;
+  text-align: center;
+  background-color: #00a8e8;
+  width: 425px;
+  padding-bottom: 95px;
+  box-sizing: border-box;
+  box-shadow: -50px 0px 50px rgba(0, 0, 0, 0.16);
+}
+
+.signup_word {
+  font-size: 19px;
+  font-family: "ptsimple";
+}
+
+#s1 {
+  width: 210px;
+  border: none;
+  height: 40px;
+  border-bottom: #cccccc 1px solid;
+  font-family: "Raleway-SemiBold";
+  font-size: 10px;
+}
+#s1:focus {
+  outline: none;
+}
+
+.button_ca_su {
+  background-color: #00a8e8;
+  color: white;
+  width: 210px;
+  border: none;
+  height: 30px;
+  font-family: "ptsimple";
+  font-size: 11px;
+}
+
+.button-login_su {
+  font-family: "ptsimple";
+  background-color: #0185b7;
+  color: white;
+  width: 210px;
+  border: none;
+  height: 30px;
+  font-size: 11px;
+}
+
+.inder_form {
+  width: 190px;
+
+  font-family: "Raleway-SemiBold";
+  font-size: 8px;
+}
+
+.mg {
+  margin-left: 250px;
+}
+
+#sign_up_paragraphe p {
+  width: 288px;
+  color: white;
+  font-family: "ptsimple";
+  font-size: 8px;
+  height: 48px;
+  padding-top: 82px;
+  margin: auto;
+}
+
+#sign_up_paragraphe figcaption {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+#signup_form_content {
+  display: grid;
+  gap: 15px;
+}
+
+em {
+  color: #a8a8a8;
+}
+
+#signup_form h4 {
+  color: #777777;
+}
+
+/*login page css*/
+#body_login {
+  background-color: #f9efd4;
+}
+
+#login_content {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 867px;
+}
+
+#login_form {
+  background-color: white;
+  font-family: "ptsimple";
+  display: grid;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 110px;
+  padding-bottom: 60px;
+  padding-left: 100px;
+}
+
+.login_left_slide {
+  background-color: #c08979;
+  width: 55%;
+  box-shadow: 50px 0px 50px rgba(0, 0, 0, 0.16);
+  z-index: 500;
+}
+
+#login_pharagraphe {
+  display: grid;
+position: relative;
+bottom: 30px;
+}
+
+#login_pharagraphe p {
+  font-family: "ptsimple";
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#tony_robbins {
+  width: max-content;
+  margin: auto;
+}
+
+.button-login {
+  width: 215px;
+  border: none;
+  height: 30px;
+  font-family: "ptsimple";
+  font-size: 11px;
+  background-color: #c08979;
+  color: white;
+}
+
+.button-su {
+  width: 215px;
+  border: none;
+  height: 30px;
+  font-family: "ptsimple";
+  font-size: 11px;
+  background-color: #c08979;
+  color: white;
+  background-color: #4d3223;
+}
+
+#login_form_content {
+  display: grid;
+  gap: 15px;
+}
+
+#login_form h4 {
+  color: #777777;
+}

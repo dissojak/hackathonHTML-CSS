@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'Raleway-SemiBold';
+        src: url('fonts/Raleway-SemiBold.ttf');
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'BebasNeue-Regular';
+        src: url('fonts/BebasNeue-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: 'Raleway-extrabold';
+        src: url('fonts/Raleway-ExtraBold.ttf');
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'ptsimple';
+        src: url('fonts/PT/ Simple/Bold/ Ruled.ttf');
+    }
+
+    .change {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(98, 169, 190, 0.7);
+        backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+
+    }
+
+    .tit_ch {
+        font-family: 'BebasNeue-Regular';
+        font-size: 72px;
+        color: #00678F;
+    }
+
+    .la-ch {
+        font-family: 'Raleway-extrabold';
+        font-size: 24px;
+        color: #4D3223;
+        text-transform: capitalize;
+    }
+
+    .ch1 {
+        border: 1px #707070 solid;
+        width: 679px;
+        height: 613px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+
+    .first_ch {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -50px;
+    }
+
+    .inp_ch {
+        width: 567px;
+        height: 79px;
+        border: none;
+        background-color: #F0F0F0;
+        border-radius: 10px;
+        padding-left: 25px;
+        box-sizing: border-box;
+    }
+
+    .inp_ch::placeholder {
+        font-family: 'Raleway-SemiBold';
+        font-size: 18px;
+        color: #A8A8A8;
+
+
+    }
+
+    .btn_ch {
+        width: 241px;
+        height: 59px;
+        background-color: #00678F;
+        border: 1px #707070 solid;
+        color: #ffffff;
+        font-family: 'ptsimple';
+        font-size: 32px;
+        text-transform: capitalize;
+
+        margin-left: 300px;
+    }
+
+    .form_ch {
+        margin-top: -70px;
+        display: grid;
+    }
+</style>
+
+<body>
+    <div class="change">
+        <div class="ch1">
+            <div class="first_ch">
+                <h2 class="tit_ch"> change password</h2> <img src="elements/X.svg" alt="">
+            </div>
+
+            <form action="" class="form_ch">
+                <label for="" class="la-ch">old password</label></br>
+                <input type="text" placeholder="enter old password" class="inp_ch"></br>
+                <label for="" class="la-ch">new password</label></br>
+                <input type="text" placeholder="new password" class="inp_ch"></br>
+                <label for="" class="la-ch">verif new password</label></br>
+                <input type="text" placeholder="re-enter old password" class="inp_ch"></br>
+                <button class="btn_ch">ok</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
