@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>popup</title>
-    <link rel="stylesheet" href="/css/user_profil_style.css" />
-    <!-- <link rel="stylesheet" href="style_home.css" /> -->
+    <title>Change Username</title>
+    <link rel="stylesheet" href="css/user_profil_style.css" />
   </head>
 
   <body>
@@ -16,18 +15,18 @@
         <li class="li_css"><img src="elements/Teamwork.svg" alt="" /></li>
         <li class="li_css"><img src="elements/flag-navbar.svg" alt="" /></li>
         <li class="li_css home_selected">
-          <img src="elements/parametre- icon.svg" alt="" />
+          <img src="elements/parametre-icon.svg" alt="" />
         </li>
       </ul>
       <div id="header_right">
         <button class="button_header_right">
           <img src="elements/Polygone 3.svg" alt="" />
         </button>
-
         <h1 class="name">mouhamed elmajry</h1>
         <img src="elements/for test/0_rnYWcmRH4KbfCWzt.png" alt="" class="a" />
       </div>
     </header>
+
     <article id="bg">
       <div class="containerProfile">
         <div id="member">
@@ -43,7 +42,6 @@
               alt=""
             />
           </button>
-
           <div class="user-info">
             <h1 class="name_member">adem ben amor</h1>
             <h3 class="word_member">member</h3>
@@ -54,49 +52,53 @@
             <div class="l">
               <img src="elements/password.svg" alt="" class="imageL" />
             </div>
-
             <h2 class="ch">Change Password</h2>
           </button>
           <button class="btn2">
             <div class="l">
               <img src="elements/username.svg" alt="" class="imageL" />
             </div>
-
             <h2 class="ch">Change Username</h2>
           </button>
           <button class="btn2">
             <div class="l">
               <img src="elements/email.svg" alt="" class="imageL" />
             </div>
-
             <h2 class="ch">Change Email</h2>
           </button>
         </div>
       </div>
     </article>
-    <div class="change">
-      <div class="ch1">
-        <div class="first_ch">
-          <h2 class="tit_ch">change password</h2>
-          <a href="user_profil.html" style="margin-top:5rem;"> <img src="elements/X.svg" alt="" /></a>
-        </div>
 
-        <form action="" class="form_ch">
-          <label for="" class="la-ch">old password</label><br />
+    <!-- Popup for Changing Username -->
+    <div class="change" id="changeUsernamePopup">
+      <div class="ch-email">
+        <div class="first_ch">
+          <h2 class="tit_ch">Change Username</h2>
+          <a href="user_profil.html" style="margin-top:5rem;">
+            <img src="elements/X.svg" alt="" />
+          </a>
+        </div>
+        <form action="/change-username" method="POST" class="form_ch">
+          <label for="newUsername" class="la-ch">New Username</label><br />
           <input
             type="text"
-            placeholder="enter old password"
+            id="newUsername"
+            name="newUsername"
+            placeholder="Enter new username"
             class="inp_ch"
+            required
           /><br />
-          <label for="" class="la-ch">new password</label><br />
-          <input type="text" placeholder="new password" class="inp_ch" /><br />
-          <label for="" class="la-ch">verif new password</label><br />
+          <label for="confirmUsername" class="la-ch">Confirm New Username</label><br />
           <input
             type="text"
-            placeholder="re-enter old password"
+            id="confirmUsername"
+            name="confirmUsername"
+            placeholder="Re-enter new username"
             class="inp_ch"
+            required
           /><br />
-          <button class="btn_ch">ok</button>
+          <button type="submit" class="btn_ch">Confirm</button>
         </form>
       </div>
     </div>

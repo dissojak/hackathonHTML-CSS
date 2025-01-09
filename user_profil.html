@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
-    <link rel="stylesheet" href="user_profil_style.css" />
+    <link rel="stylesheet" href="css/user_profil_style.css" />
     <!-- <link rel="stylesheet" href="style_home.css" /> -->
   </head>
 
@@ -12,7 +12,7 @@
     <header>
       <img src="elements/logo-white.svg" alt="" class="img_logo" />
       <ul class="navbar">
-        <li class="li_css"><img src="elements/home-marron.svg" alt="" /></li>
+        <li class="li_css"><a href="home.html"><img src="elements/home-marron.svg" alt="" /></a></li>
         <li class="li_css">
           <a href="createTeam.html" style="cursor: pointer"
             ><img src="elements/Teamwork.svg" alt=""
@@ -62,6 +62,7 @@
               <h2 class="ch">Change Password</h2>
             </button>
           </a>
+          <a href="username.html">
           <button class="btn2">
             <div class="l">
               <img src="elements/username.svg" alt="" class="imageL" />
@@ -69,6 +70,8 @@
 
             <h2 class="ch">Change Username</h2>
           </button>
+        </a>
+          <a href="email.html">
           <button class="btn2">
             <div class="l">
               <img src="elements/email.svg" alt="" class="imageL" />
@@ -76,34 +79,9 @@
 
             <h2 class="ch">Change Email</h2>
           </button>
+        </a>
         </div>
       </div>
     </article>
-    <!-- <div class="change">
-      <div class="ch1">
-        <div class="first_ch">
-          <h2 class="tit_ch">change password</h2>
-          <img src="elements/X.svg" alt="" />
-        </div>
-
-        <form action="" class="form_ch">
-          <label for="" class="la-ch">old password</label><br />
-          <input
-            type="text"
-            placeholder="enter old password"
-            class="inp_ch"
-          /><br />
-          <label for="" class="la-ch">new password</label><br />
-          <input type="text" placeholder="new password" class="inp_ch" /><br />
-          <label for="" class="la-ch">verif new password</label><br />
-          <input
-            type="text"
-            placeholder="re-enter old password"
-            class="inp_ch"
-          /><br />
-          <button class="btn_ch">ok</button>
-        </form>
-      </div>
-    </div> -->
   </body>
 </html>

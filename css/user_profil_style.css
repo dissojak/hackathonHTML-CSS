@@ -304,3 +304,21 @@ header {
   margin-top: -70px;
   display: grid;
 }
+
+
+/* 
+email chnage css 
+
+------------------------------------------
+*/
+
+.ch-email {
+  border: 1px #707070 solid;
+  width: 679px;
+  height: 453px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding-left: 56px;
+  padding-right: 56px;
+}
