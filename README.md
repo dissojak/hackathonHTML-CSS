@@ -19,7 +19,7 @@ Project language composition:
 - [Contact](#contact)
 
 ## Overview
-This project is a simple, well-structured static front-end demo built with plain HTML and CSS. It contains multiple screen layouts (desktop / tablet / mobile) and reusable components (navigation, cards, forms, and footer) suitable for hackathon prototyping.
+This project is a simple, well-structured static front-end demo built with plain HTML and CSS. It contains multiple screen layouts and reusable components (navigation, cards, forms, and footer) suitable for hackathon prototyping.
 
 Goals:
 - Rapidly prototype screen designs
@@ -95,6 +95,7 @@ Repository: https://github.com/dissojak/hackathonHTML-CSS
 Author / Maintainer: dissojak
 
 If you need permission for uses beyond study, or want to collaborate, open an issue or contact the maintainer directly.
+
 
 
 
