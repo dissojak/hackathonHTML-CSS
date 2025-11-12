@@ -52,7 +52,6 @@ A typical layout for this repo (adjust to match the actual files in the reposito
 Recommended screenshot sizes:
 - Desktop: ~1920×1080  (no sure 80%)
 
-Placeholders (replace with your images and captions):
 
 - Home / Landing (Desktop)  
   <img width="690" height="811" alt="image" src="https://github.com/user-attachments/assets/8835c1e9-7835-4473-a74d-6ad2aeadd15e" />
@@ -95,6 +94,7 @@ Repository: https://github.com/dissojak/hackathonHTML-CSS
 Author / Maintainer: dissojak
 
 If you need permission for uses beyond study, or want to collaborate, open an issue or contact the maintainer directly.
+
 
 
 
