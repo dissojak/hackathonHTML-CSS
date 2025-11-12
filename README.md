@@ -35,6 +35,7 @@ Goals:
 
 Optional: run a simple static server for convenience:
 - Python 3: `python -m http.server 8000` and visit http://localhost:8000
+- live server in vs code and visit http://localhost:5000
 
 ## Project structure
 A typical layout for this repo (adjust to match the actual files in the repository):
@@ -94,5 +95,6 @@ Repository: https://github.com/dissojak/hackathonHTML-CSS
 Author / Maintainer: dissojak
 
 If you need permission for uses beyond study, or want to collaborate, open an issue or contact the maintainer directly.
+
 
 
