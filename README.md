@@ -42,7 +42,6 @@ A typical layout for this repo (adjust to match the actual files in the reposito
 - index.html — main entry page  
 - /styles/ — CSS files (reset, base, components, layout)  
 - /assets/ — images, icons, fonts  
-- /docs/screenshots/ — example screenshots (placeholders)
 
 ## Screens / Design captures
 
@@ -95,4 +94,5 @@ Repository: https://github.com/dissojak/hackathonHTML-CSS
 Author / Maintainer: dissojak
 
 If you need permission for uses beyond study, or want to collaborate, open an issue or contact the maintainer directly.
+
 
